@@ -1,5 +1,5 @@
 ---
-title: "VSCode上のVim操作を快適にする拡張「VSpaceCode」の紹介"
+title: "VSCode上のVim操作を快適にする拡張 VSpaceCode の紹介"
 emoji: "🔭"
 type: "tech"
 topics: ["vscode", "vim"]
