@@ -64,19 +64,7 @@ https://vspacecode.github.io/docs/default-keybindings
 
 key bindingに対応するものは種別として command(s), bindings, transient, conditionalがあるようです．
 
-### Help
-Helpを表示するbindingです．
 
-| Key Binding        | Name                          | Type    | Command(s)                                   |
-| ------------------ | ----------------------------- | ------- | -------------------------------------------- |
-| `␣ h d` | Open VSCode Documentation     | command | `workbench.action.openDocumentationUrl`      |
-| `␣ h k` | Open global key bindings      | command | `workbench.action.openGlobalKeybindings`     |
-| `␣ h D` | Open VSpaceCode Documentation | command | `vspacecode.openDocumentationUrl`            |
-| `␣ h I` | Report VSCode Issue           | command | `workbench.action.openIssueReporter`         |
-| `␣ h T` | Open VSCode Tutorial          | command | `workbench.action.showInteractivePlayground` |
-
-`␣ h k`でグローバルのkey bindingsに飛べるのが便利です．
-困ったらこれ見るといいです．
 
 ### `␣ w` (Window)
 window操作を行うbindingです．
@@ -133,6 +121,7 @@ key bindingをincremental searchするbindingです．（`␣ ?`で完結）
 
 - 通常，`␣` を押したにあるキー（候補として存在するキー）が押されたら，その操作が実行されます．
 - `␣ ?` を押すと，候補の操作をincremental searchできます．
+
 
 
 ### 他にも色々
