@@ -57,9 +57,9 @@ VSpaceCodeをインストールすると，内部で利用している[Which Key
 
 基本的にはManuallyがおすすめです．
 
-## VSpaceCodeでよく使っている操作
+## VSpaceCodeで筆者がよく使っている操作
 
-VSpaceCodeがやってるのは，bindingを追加して，便利なものの一部を以下から引用+簡単に訳して紹介します．
+VSpaceCodeのデフォルト操作で便利なものの一部を，以下から引用+簡単に訳して紹介します．
 https://vspacecode.github.io/docs/default-keybindings
 
 key bindingに対応するものは種別として command(s), bindings, transient, conditionalがあるようです．
