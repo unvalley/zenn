@@ -138,6 +138,8 @@ key bindingをincremental searchするbindingです．（`␣ ?`で完結）
 ### 他にも色々
 
 Buffers・Compile/Comments・Debug・File・Git・Layouts・Diff/Compareなど他にも色々なbindingが用意されています．
+もちろんbindingのカスタマイズもできるので，必要なものを増やしていくとより快適になると思います．
+
 https://vspacecode.github.io/docs/default-keybindings
 
 
