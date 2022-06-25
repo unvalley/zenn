@@ -3,7 +3,7 @@ title: "VSCode上のVim操作を快適にする拡張「VSpaceCode」の紹介"
 emoji: "🔭"
 type: "tech"
 topics: ["vscode", "vim"]
-published: false
+published: true
 ---
 
 [VSpaceCode](https://vspacecode.github.io/)は，[Spacemacs](https://www.spacemacs.org)のようなkey bindingをVSCode上で実現するための拡張です．本記事では，VSpaceCodeについて簡単に紹介します．
@@ -141,6 +141,15 @@ Buffers・Compile/Comments・Debug・File・Git・Layouts・Diff/Compareなど�
 https://vspacecode.github.io/docs/default-keybindings
 
 
+## 終わりに
+簡単にVSpaceCodeについて紹介しました．
+公式ドキュメントのページ数は少ないので，ぜひ眺めてみてください．
+
+https://marketplace.visualstudio.com/items?itemName=VSpaceCode.vspacecode
+https://vspacecode.github.io/
+https://github.com/VSpaceCode/VSpaceCode
+
+
 ## 余談：VSCode NeoVimユーザーのためのワークアラウンド
 NeoVimとVSpaceCodeを併用しようとして，`␣`を押した時にVSpaceCodeが動かなくなってしまいました．
 簡単で雑な解決方法ですがkeybindings.json に以下のbindingを追加して，spaceの挙動を上書きすれば直ります．
@@ -153,15 +162,6 @@ NeoVimとVSpaceCodeを併用しようとして，`␣`を押した時にVSpaceCo
 },
 ```
 
-下記issueのリアクションついてるコメントでは直らなかったので，ひとまず上の方法で放置してます（VSCode拡張のbindingなのでkeybindings.jsonで良いかなと）．
+下記issueのリアクションが付いているコメントでは直らなかったので，ひとまず上の方法で放置してます．
 
 https://github.com/VSpaceCode/VSpaceCode/issues/34
-
-## 終わりに
-簡単にVSpaceCodeについて紹介しました．
-公式ドキュメントのページ数は少ないので，ぜひ眺めてみてください．
-
-https://marketplace.visualstudio.com/items?itemName=VSpaceCode.vspacecode
-https://vspacecode.github.io/
-https://github.com/VSpaceCode/VSpaceCode
-
