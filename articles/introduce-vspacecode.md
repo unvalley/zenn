@@ -99,7 +99,7 @@ windowはbindingかなり多いので，一部のみ引用しています．
 エラー表示(Show Error)と書いていますが，Command(s)を見て分かるように，実際のbinding先は `editor.action.showHover`です．
 なのでエラーに限らずドキュメント表示もできます（この辺は改善すべき点なのか？）．
 
-### `␣ :` (Tass)
+### `␣ :` (Task)
 タスク実行に関連するbindingです．
 
 | Key Binding        | Name                  | Type    | Command(s)                                   |
@@ -116,7 +116,7 @@ windowはbindingかなり多いので，一部のみ引用しています．
 
 よく利用するタスクを設定しておくと良いのではないかと思います．
 
-### `␣ ?` (saerch keybindings)
+### `␣ ?` (search keybindings)
 key bindingをincremental searchするbindingです．（`␣ ?`で完結）
 
 - 通常，`␣` を押したにあるキー（候補として存在するキー）が押されたら，その操作が実行されます．
