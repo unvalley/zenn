@@ -13,15 +13,15 @@ https://vspacecode.github.io/
 
 
 ## VSpaceCodeとは
-VSpaceCodeは，冒頭に述べたとおり[Spacemacs](https://www.spacemacs.org)のようなkey bindingをVSCode上で実現する拡張です．Spacemacsのようなkey bindingとは，デフォルトのleaderである`␣`を起点とした操作のことです．以下が例になります．
+VSpaceCodeは，冒頭に述べたとおり[Spacemacs](https://www.spacemacs.org)のようなkey bindingをVSCode上で実現する拡張です．Spacemacsのようなkey bindingとは，デフォルトのleaderであるspaceキー`␣`を起点とした操作のことです．以下が例になります．
 
 
-- VimでNormalモードの時にleader（デフォルトはspaceキー`␣`）を押すと，コマンドパレットが表示される
-- 続く候補のコマンドのためのキーを押す
-- command（bindings・transient）を実行
+- VimでNormalモードの時にleader（`␣`）を押すと，コマンドパレットが表示される
+- 続く候補の操作のためのキーを押す
+- 操作を実行
 
 公式のデモが分かりやすいです
-例えば`␣ + w + /` は，windowを分割するコマンドになります．
+例えば`␣ + w + /` は，windowを分割する操作（コマンド）になります．
 
 ![image](https://res.craft.do/user/full/848d1156-cbdb-deb2-8dde-19b0dc06f053/doc/60D51D43-4EF3-4E9E-BA09-810D4218841B/5EDA8FA6-E923-41D5-863E-52979707669D_2/S9MYhTh5nwnwe9Vy6ddeI2oICxxwB6Iqi0QyOpdy4xQz/AnimatedImage.gif)
 
