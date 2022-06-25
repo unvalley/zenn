@@ -83,12 +83,12 @@ window操作を行うbindingです．
 
 | Key Binding        | Name                              | Type                         | Command(s)                                    |
 | ------------------ | --------------------------------- | ---------------------------- | --------------------------------------------- |
-| `␣ w -` | Split window below(windowを下方向に分割)                | command                      | `workbench.action.splitEditorDown`            |
-| `␣ w /` | Split window right(windowを右方向に分割)                | command                      | `workbench.action.splitEditor`                |
-| `␣ w =` | Reset window sizes(windowサイズをリセット)                | command                      | `workbench.action.evenEditorWidths`           |
-| `␣ w [` | Shrink window(windowを縮小)                     | [transient](#shrink-window)  | `workbench.action.decreaseViewSize`           |
-| `␣ w ]` | Enlarge window(windowを拡大)                    | [transient](#enlarge-window) | `workbench.action.increaseViewSize`           |
-| `␣ w o` | Switch frame(frameの切り替え)                      | command                      | `workbench.action.quickSwitchWindow`          |
+| `␣ w -` | Split window below                | command                      | `workbench.action.splitEditorDown`            |
+| `␣ w /` | Split window right                | command                      | `workbench.action.splitEditor`                |
+| `␣ w =` | Reset window sizes                | command                      | `workbench.action.evenEditorWidths`           |
+| `␣ w [` | Shrink window                     | [transient](#shrink-window)  | `workbench.action.decreaseViewSize`           |
+| `␣ w ]` | Enlarge window                    | [transient](#enlarge-window) | `workbench.action.increaseViewSize`           |
+| `␣ w o` | Switch frame                      | command                      | `workbench.action.quickSwitchWindow`          |
 
 windowはbindingかなり多いので，一部のみ引用しています．
 詳しくは[Default Kyebindings](https://vspacecode.github.io/docs/default-keybindings)へ．
