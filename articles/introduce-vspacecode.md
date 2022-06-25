@@ -13,7 +13,7 @@ https://vspacecode.github.io/
 
 
 ## VSpaceCodeとは
-VSpaceCodeは，冒頭に述べたとおり[Spacemacs](https://www.spacemacs.org)のようなkey bindingをVSCode上で実現する拡張です．Spacemacsのようなkey bindingとは，デフォルトのleaderである`␣`を起点とした操作のことです．例えば以下が例になります．
+VSpaceCodeは，冒頭に述べたとおり[Spacemacs](https://www.spacemacs.org)のようなkey bindingをVSCode上で実現する拡張です．Spacemacsのようなkey bindingとは，デフォルトのleaderである`␣`を起点とした操作のことです．以下が例になります．
 
 
 - VimでNormalモードの時にleader（デフォルトはspaceキー`␣`）を押すと，コマンドパレットが表示される
