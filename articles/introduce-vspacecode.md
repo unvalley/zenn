@@ -25,9 +25,7 @@ VSpaceCodeは，冒頭に述べたとおり[Spacemacs](https://www.spacemacs.org
 
 ![image](https://res.craft.do/user/full/848d1156-cbdb-deb2-8dde-19b0dc06f053/doc/60D51D43-4EF3-4E9E-BA09-810D4218841B/5EDA8FA6-E923-41D5-863E-52979707669D_2/S9MYhTh5nwnwe9Vy6ddeI2oICxxwB6Iqi0QyOpdy4xQz/AnimatedImage.gif)
 
-この`␣`をベースとしたコマンド実行は，Spacemacsに由来します．
-
-画面上側のように入力に応じてコマンドが表示されるので，コマンドが覚えやすいのが，VSpaceCodeを使う大きな利点です．
+**VSpaceCodeを使う大きな利点は，画面上側に入力に応じてコマンド候補が表示されるので，ショートカットを全て覚えなくても良くなることです**．
 
 もともとSpacemacsは，Emacsのdistributionの一つで，Vimの入力インタフェースにEmacsの拡張性を加えたエディタとして紹介されています．
 
@@ -38,6 +36,7 @@ https://qiita.com/nobkz/items/994c6b3e6f42a0e33fef
 - [VSCodeVim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)や[VSCode NeoVim](https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)ユーザー
 - vimのbindingなどをガンガンにカスタマイズしているわけではないVimユーザー
 - SpacemacsからVSCodeに移行する必要のあるor移行したいユーザー
+- ショートカットを覚えるのが嫌いだけど効率化したいVSCodeユーザー（この機にVSCodeVimを入れましょう！）
 
 上記に当てはまる方に，フィットすると思います．
 
