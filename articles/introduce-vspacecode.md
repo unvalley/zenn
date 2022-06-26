@@ -79,7 +79,7 @@ window操作を行うbindingです．
 
 windowはbindingかなり多いので，一部のみ引用しています．
 詳しくは[Default Kyebindings](https://vspacecode.github.io/docs/default-keybindings)へ．
-縮小と拡大は連続して押せるので便利です．
+縮小(Shrink)と拡大(Enlarge)は連続して押せるので便利です．
 
 
 ### `␣ e` (Error)
