@@ -81,6 +81,9 @@ windowはbindingかなり多いので，一部のみ引用しています．
 詳しくは[Default Kyebindings](https://vspacecode.github.io/docs/default-keybindings)へ．
 縮小(Shrink)と拡大(Enlarge)は連続して押せるので便利です．
 
+![CleanShot 2022-06-27 at 10 05 46](https://user-images.githubusercontent.com/38400669/175842358-d19bdb59-0894-4d12-acb3-179ec8558d91.gif)
+*Shrink window（`␣ w [`）とEnlarge window（`␣ w ]`）の実演*
+
 
 ### `␣ e` (Error)
 エラー表示を行うbindingです．
@@ -96,7 +99,11 @@ windowはbindingかなり多いので，一部のみ引用しています．
 | `␣ e N` | Previous error  | command                       | `editor.action.marker.prevInFiles` |
 
 エラー表示(Show Error)と書いていますが，Command(s)を見て分かるように，実際のbinding先は `editor.action.showHover`です．
-なのでエラーに限らずドキュメント表示もできます（この辺は改善すべき点なのか？）．
+なのでエラーに限らずドキュメント表示もできます．
+
+
+![CleanShot 2022-06-27 at 10 22 47](https://user-images.githubusercontent.com/38400669/175843604-fd8e734f-b024-4018-a20e-2fb14de590ea.gif)
+*Show error（`␣ e e`），Fix error（`␣ e f`），Next error（`␣ e n`）などの実演*
 
 ### `␣ :` (Task)
 タスク実行に関連するbindingです．
