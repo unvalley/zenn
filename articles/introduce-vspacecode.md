@@ -40,7 +40,7 @@ https://qiita.com/nobkz/items/994c6b3e6f42a0e33fef
 
 上記に当てはまる方に，フィットすると思います．
 
-VSCodeVim（or VSCode NeoVim）を使っていない方は，[vscode-which-key](https://github.com/VSpaceCode/vscode-which-key)を入れると利用可能になるとのことです．僕はVSCode NeoVimを使っているので，vscode-which-keyは試してはいません．
+VSCodeVim（or VSCode NeoVim）を使っていない方は，[vscode-which-key](https://github.com/VSpaceCode/vscode-which-key)を入れると利用可能になるとのことです．後に書くようにvscode-which-keyはVSpaceCodeと同時にインストールされます．僕はVSCode NeoVimと一緒にVSpaceCodeを使っているので，Vim拡張なしでの操作は試していません．
 >  This extension is published as an extension pack, i.e. it installs all the necessary extensions for the best-of-the box experience. However, if you do not like the bundled extensions or you are not using VSCode Vim, please go to the [vscode-which-key](https://github.com/VSpaceCode/vscode-which-key) extension for a standalone which key menu function.
 
 ## インストール
