@@ -10,7 +10,8 @@ published: true
 
 https://github.com/pacak/bpaf
 
-RustのCommand Line Argument Parserといえば[Clap](https://github.com/clap-rs/clap)が有名です。特にこだわりがない場合はClapを使えばよいと思いますが、バイナリサイズやビルド時間を削減したい場合にはBpafなどの軽量なcrateが選定候補に挙げられます。
+RustのCommand Line Argument Parserといえば[Clap](https://github.com/clap-rs/clap)が有名です。特にこだわりがない場合はClapを使えばよいと思います。
+一方、バイナリサイズやビルド時間を削減したいかつ柔軟なパースを行いたい場合には、Bpafなどの軽量なcrateが選定候補に挙げられます。
 
 ## Bpaf
 
