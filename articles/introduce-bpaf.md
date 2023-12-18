@@ -1,5 +1,5 @@
 ---
-title: "Bpaf：Rustにおける軽量かつ柔軟なCommand Line Argument Parser"
+title: "Bpaf : Rustにおける軽量かつ柔軟なCommand Line Argument Parser"
 emoji: "⛓️"
 type: "tech"
 topics: ["Rust", "CLI"]
@@ -10,7 +10,7 @@ published: true
 
 https://github.com/pacak/bpaf
 
-RustのCommand Line Argument ParserといえばClap（clap-rs/clap）が有名です。特にこだわりがない場合はClapを使えばよいと思いますが、バイナリサイズやビルド時間を削減したい場合にはBpafなどの軽量なcrateが選定候補に挙げられます。
+RustのCommand Line Argument Parserといえば[Clap](https://github.com/clap-rs/clap)が有名です。特にこだわりがない場合はClapを使えばよいと思いますが、バイナリサイズやビルド時間を削減したい場合にはBpafなどの軽量なcrateが選定候補に挙げられます。
 
 ## Bpaf
 
@@ -32,16 +32,16 @@ Bpafは、以下のような特徴を持ちます。
     - 任意の時点で、各サブパーサの現在の解析状態に基づいて追加の検証やフォールバック値の適用が可能
     - BpafのParserはmonolithicではないため、複数のバイナリ・workspaceメンバー・別プロジェクトにおいても共有可能
 - ドキュメントが豊富
-    - チュートリアルやガイドなどが、丁寧に書かれています
+    - チュートリアルやガイドなどが、丁寧に書かれている
     - [https://docs.rs/bpaf/latest/bpaf/index.html](https://docs.rs/bpaf/latest/bpaf/index.html)
 
-### Example (Derive API)
+## Exampleコード (Derive API)
 
 Bpafでは、Derive APIとCombinatoric APIの２つが提供されていますが、これは意図的です。どちらのAPIも同時に使うことができます。
-
 Derive APIを使う場合は、エディタからの補完は少ないですがタイプ数も少ないです。Combinatori APIを使う場合は、タイプ数が多いですが、procマクロ（bpaf_derive crate）に依存せず、エディタからの補完が増えます。
 
-Derive APIのほうが可読性が高いと思うので、ここではDerive APIのコードのみを例に使います。（bpaf/examples/derive.rs）`cargo new bpaf-example` → [main.rs](http://main.rs) に以下を記述して試せます。
+Derive APIのほうが可読性が高いと思うので、ここでは[Bpaf公式のExamplesのDerive APIの例](https://github.com/pacak/bpaf/blob/master/examples/derive.rs)を載せます。
+`cargo new bpaf-example`を実行して、[main.rs](http://main.rs) に以下のコードをコピペして試せます。
 
 ```rust
 // https://github.com/pacak/bpaf/blob/master/examples/derive.rs
@@ -92,7 +92,7 @@ fn main() {
 }
 ```
 
-コマンド実行結果（型安全にパース結果を利用可能）：
+### コマンド実行結果
 
 ```rust
 ▶ cargo run -- --debug -vvv --speed 60.5 --output /path/to/output.txt --number-of-cars 3 --files-to-process file1.txt
@@ -108,14 +108,18 @@ Opts {
 }
 ```
 
-versionの出力結果（デフォルトでは、Cargo.tomlから抽出される）：
+パース後、型安全にパース結果を利用可能です。
+
+### versionの出力結果
 
 ```rust
 ▶ cargo run -- --version
 Version: 0.1.0
 ```
 
-helpの出力結果（`bright-color` featureなどを利用すれば色付けできます　）：
+デフォルトでは、Cargo.tomlから抽出されます。
+
+### helpの出力結果
 
 ```rust
 ▶ cargo run -- --help
@@ -133,6 +137,8 @@ Available options:
     -h, --help                Prints help information
     -V, --version             Prints version information
 ```
+
+`bright-color` featureなどを利用すれば、helpに色付けできます。
 
 ## Bpafを利用しているプロジェクト
 
