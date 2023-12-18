@@ -176,7 +176,7 @@ https://github.com/rosetta-rs/argparse-rosetta-rs
 
 本記事では、Rustにおける軽量かつ柔軟なCommand Line Argument ParserのBpafを紹介しました。Clapほど機能が豊富でなくてもよい・バイナリサイズ・ビルド時間などを削減したいという場合の選択肢となればよいと思います。
 
-- [pacak/bpaf: Command line parser with applicative interface](https://github.com/pacak/bpaf)
+https://github.com/pacak/bpaf
 
 今回はBpafの内部のコードについて触れていません。以下のページなどでは、Bpafで利用されている抽象的な概念について書かれているので、内部に興味がある方は読んでみると面白いと思います。
 
