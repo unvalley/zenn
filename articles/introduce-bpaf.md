@@ -183,9 +183,11 @@ https://github.com/rosetta-rs/argparse-rosetta-rs
 - [bpaf::_documentation::_4_explanation - Rust](https://docs.rs/bpaf/latest/bpaf/_documentation/_4_explanation/index.html)
 - [Using Category Theory to parse command line options](https://rustmagazine.org/issue-2/applicative-parsing/)
 
-ちなみに[Bpafの “af” の部分は、作者いわくApplicative Functorの略](https://www.reddit.com/r/rust/comments/xlzx3v/comment/ipnf3og/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)とのことです（”Bp”は何を表していたか忘れたらしい）。
+ちなみにBpafの “af” の部分は、作者いわくApplicative Functorの略とのことです（”Bp”は何を表していたか忘れたらしい）。
 
-上記のExplanationのドキュメントなどを読んでいると、Bpafの内部実装に興味が湧きました。利用しているツールでもあるので、どこかの機会でちゃんとコードリーディング（及び コントリビューション）したくなりました。
+https://www.reddit.com/r/rust/comments/xlzx3v/comment/ipnf3og/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+
+記事を書く上で、Bpafの内部実装に興味が湧きました。利用しているツールでもあるので、どこかの機会でちゃんとコードリーディング（及び コントリビューション）します。
 
 ## 参考資料
 
