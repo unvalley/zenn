@@ -162,7 +162,7 @@ https://github.com/biomejs/biome/blob/main/crates/biome_cli/src/commands/mod.rs#
 - [Argh（google/argh）](http://github.com/google/argh)
 - [Lexopt（blyxxyz/lexopt）](https://github.com/blyxxyz/lexopt)
 - [getopts（rust-lang/getopts）](http://github.com/rust-lang/getopts)
-- pico-args（RazrFalcom/pico-args）
+- [pico-args（RazrFalcom/pico-args）](https://github.com/RazrFalcon/pico-args)
 
 以下のRepositoryでは、いくつかのCommand Line Argument Parserを対象としたベンチーマークが記録されており、選定の際に役立つと思います。
 
