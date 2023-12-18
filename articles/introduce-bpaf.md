@@ -3,14 +3,14 @@ title: "Bpaf：Rustにおける軽量かつ柔軟なCommand Line Argument Parser
 emoji: "⛓️"
 type: "tech"
 topics: ["Rust", "CLI"]
-published: true
+published: false
 ---
 
 [Rust Advent Calendar 2023 Series 2 18日目](https://qiita.com/advent-calendar/2023/rust)の本記事では、[Bpaf](https://github.com/pacak/bpaf) という軽量かつ柔軟（Lightweight and flexible）なCommand Line Argument Parserを紹介します。
 
 https://github.com/pacak/bpaf
 
-RustのCommand Line Argument ParserといえばClap（clap-rs/clap）が有名です。特にこだわりがない場合はClapを使えばよいと思いますが、バイナリサイズやビルド時間を削減したい場合にはBpafなどの軽量なcrateが選定候補に挙げられます。
+RustのCommand Line Argument Parserといえば[Clap](https://github.com/clap-rs/clap)が有名です。特にこだわりがない場合はClapを使えばよいと思いますが、バイナリサイズやビルド時間を削減したい場合にはBpafなどの軽量なcrateが選定候補に挙げられます。
 
 ## Bpaf
 
