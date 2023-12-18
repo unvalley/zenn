@@ -148,9 +148,9 @@ Bpafは、以下に挙げられるプロジェクトなどのCLIツールで利�
 - [nvarner/typst-lsp](https://github.com/nvarner/typst-lsp)
 - [NixOS/nixpkgs](https://github.com/NixOS/nixpkgs)（一部のcrate）
 
-Biomeは以前はpico_argsを利用していましたが、@ematipicoによる[こちらのPR](https://github.com/rome/tools/pull/4405) でbpafを利用するように変更されました。変更の目的はPRに書かれているように、CLIのhelpやdocumentationの機能をより簡単にメンテナンス可能にできるようにしたかったためです。利用しているcargo featuresは、`derive` と `bright-color` です（`autocomplete` も使っても良いかも）。
+Biomeは以前はpico_argsを利用していましたが、[@ematipico](https://github.com/ematipico)による[こちらのPR](https://github.com/rome/tools/pull/4405) でbpafを利用するように変更されました。変更の目的はPRに書かれているように、CLIのhelpやdocumentationの機能をより簡単にメンテナンス可能にできるようにしたかったためです。利用しているcargo featuresは、`derive` と `bright-color` です（`autocomplete` も使っても良いかも）。
 
-Derive API を利用したCommand実装として、以下のファイルにあります。実践的な例として参考になると思います。
+BiomeのDerive APIを利用したCommand実装は、以下のファイルにあります。実践的な例として参考になると思います。
 
 https://github.com/biomejs/biome/blob/main/crates/biome_cli/src/commands/mod.rs#L29-L260
 
