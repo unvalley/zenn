@@ -38,6 +38,7 @@ Bpafでは、Derive APIとCombinatoric APIの２つが提供されています�
 Derive APIを使う場合は、エディタからの補完は少ないですがタイプ数も少ないです。Combinatori APIを使う場合は、タイプ数が多いですが、procマクロ（bpaf_derive crate）に依存せず、エディタからの補完が増えます。
 
 Derive APIのほうが可読性が高いと思うので、ここでは[Bpaf公式のExamplesのDerive APIの例](https://github.com/pacak/bpaf/blob/master/examples/derive.rs)を載せます。
+両方のAPIを使った例は、[BpafのREADME.md](https://github.com/pacak/bpaf#quick-start---combinatoric-and-derive-apis)に書かれています。(
 
 ```rust
 // https://github.com/pacak/bpaf/blob/master/examples/derive.rs
