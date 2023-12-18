@@ -35,7 +35,7 @@ Bpafは、以下のような特徴を持ちます。
     - チュートリアルやガイドなどが、丁寧に書かれている
     - [https://docs.rs/bpaf/latest/bpaf/index.html](https://docs.rs/bpaf/latest/bpaf/index.html)
 
-### Example (Derive API)
+## Exampleコード (Derive API)
 
 Bpafでは、Derive APIとCombinatoric APIの２つが提供されていますが、これは意図的です。どちらのAPIも同時に使うことができます。
 Derive APIを使う場合は、エディタからの補完は少ないですがタイプ数も少ないです。Combinatori APIを使う場合は、タイプ数が多いですが、procマクロ（bpaf_derive crate）に依存せず、エディタからの補完が増えます。
@@ -92,7 +92,7 @@ fn main() {
 }
 ```
 
-コマンド実行結果（型安全にパース結果を利用可能）：
+### コマンド実行結果
 
 ```rust
 ▶ cargo run -- --debug -vvv --speed 60.5 --output /path/to/output.txt --number-of-cars 3 --files-to-process file1.txt
@@ -108,14 +108,18 @@ Opts {
 }
 ```
 
-versionの出力結果（デフォルトでは、Cargo.tomlから抽出される）：
+パース後、型安全にパース結果を利用可能です。
+
+### versionの出力結果
 
 ```rust
 ▶ cargo run -- --version
 Version: 0.1.0
 ```
 
-helpの出力結果（`bright-color` featureなどを利用すれば色付けできます　）：
+デフォルトでは、Cargo.tomlから抽出されます。
+
+### helpの出力結果
 
 ```rust
 ▶ cargo run -- --help
@@ -133,6 +137,8 @@ Available options:
     -h, --help                Prints help information
     -V, --version             Prints version information
 ```
+
+`bright-color` featureなどを利用すれば、helpに色付けできます。
 
 ## Bpafを利用しているプロジェクト
 
