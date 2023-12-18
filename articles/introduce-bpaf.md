@@ -1,5 +1,5 @@
 ---
-title: "Bpaf：Rustにおける軽量かつ柔軟なCommand Line Argument Parser"
+title: "Bpaf : Rustにおける軽量かつ柔軟なCommand Line Argument Parser"
 emoji: "⛓️"
 type: "tech"
 topics: ["Rust", "CLI"]
@@ -32,16 +32,16 @@ Bpafは、以下のような特徴を持ちます。
     - 任意の時点で、各サブパーサの現在の解析状態に基づいて追加の検証やフォールバック値の適用が可能
     - BpafのParserはmonolithicではないため、複数のバイナリ・workspaceメンバー・別プロジェクトにおいても共有可能
 - ドキュメントが豊富
-    - チュートリアルやガイドなどが、丁寧に書かれています
+    - チュートリアルやガイドなどが、丁寧に書かれている
     - [https://docs.rs/bpaf/latest/bpaf/index.html](https://docs.rs/bpaf/latest/bpaf/index.html)
 
 ### Example (Derive API)
 
 Bpafでは、Derive APIとCombinatoric APIの２つが提供されていますが、これは意図的です。どちらのAPIも同時に使うことができます。
-
 Derive APIを使う場合は、エディタからの補完は少ないですがタイプ数も少ないです。Combinatori APIを使う場合は、タイプ数が多いですが、procマクロ（bpaf_derive crate）に依存せず、エディタからの補完が増えます。
 
-Derive APIのほうが可読性が高いと思うので、ここではDerive APIのコードのみを例に使います。（bpaf/examples/derive.rs）`cargo new bpaf-example` → [main.rs](http://main.rs) に以下を記述して試せます。
+Derive APIのほうが可読性が高いと思うので、ここでは[Bpaf公式のExamplesのDerive APIの例](https://github.com/pacak/bpaf/blob/master/examples/derive.rs)を載せます。
+`cargo new bpaf-example`を実行して、[main.rs](http://main.rs) に以下のコードをコピペして試せます。
 
 ```rust
 // https://github.com/pacak/bpaf/blob/master/examples/derive.rs
