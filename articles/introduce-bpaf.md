@@ -170,7 +170,7 @@ https://github.com/rosetta-rs/argparse-rosetta-rs
 
 上記のベンチマークは、Clapのメンテナ（[@epage](https://github.com/epage)）によって、メンテナンスされているようです。ちなみにLexoptは、ripgrepで採用されています。
 
-- [various rollup + move off of Clap to lexopt by BurntSushi · Pull Request #2626 · BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep/pull/2626)
+https://github.com/BurntSushi/ripgrep/pull/2626
 
 ## 終わりに
 
