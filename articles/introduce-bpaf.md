@@ -10,7 +10,8 @@ published: true
 
 https://github.com/pacak/bpaf
 
-RustのCommand Line Argument Parserといえば[Clap](https://github.com/clap-rs/clap)が有名です。特にこだわりがない場合はClapを使えばよいと思いますが、バイナリサイズやビルド時間を削減したい場合にはBpafなどの軽量なcrateが選定候補に挙げられます。
+RustのCommand Line Argument Parserといえば[Clap](https://github.com/clap-rs/clap)が有名です。特にこだわりがない場合はClapを使えばよいと思います。
+一方、バイナリサイズやビルド時間を削減したいかつ柔軟なパースを行いたい場合には、Bpafなどの軽量なcrateが選定候補に挙げられます。
 
 ## Bpaf
 
@@ -91,7 +92,7 @@ fn main() {
 }
 ```
 
-### コマンド実行結果
+### コマンド実行結果：
 
 ```rust
 ▶ cargo run -- --debug -vvv --speed 60.5 --output /path/to/output.txt --number-of-cars 3 --files-to-process file1.txt
@@ -109,7 +110,7 @@ Opts {
 
 パース後、型安全にパース結果を利用可能です。
 
-### versionの出力結果
+### versionの出力結果：
 
 ```rust
 ▶ cargo run -- --version
@@ -118,7 +119,7 @@ Version: 0.1.0
 
 デフォルトでは、Cargo.tomlから抽出されます。
 
-### helpの出力結果
+### helpの出力結果：
 
 ```rust
 ▶ cargo run -- --help
@@ -136,8 +137,6 @@ Available options:
     -h, --help                Prints help information
     -V, --version             Prints version information
 ```
-
-`bright-color` featureなどを利用すれば、helpに色付けできます。
 
 ## Bpafを利用しているプロジェクト
 
