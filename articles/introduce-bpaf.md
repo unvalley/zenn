@@ -166,7 +166,7 @@ https://github.com/biomejs/biome/blob/main/crates/biome_cli/src/commands/mod.rs#
 
 以下のRepositoryでは、いくつかのCommand Line Argument Parserを対象としたベンチーマークが記録されており、選定の際に役立つと思います。
 
-[https://github.com/rosetta-rs/argparse-rosetta-rs](https://github.com/rosetta-rs/argparse-rosetta-rs)
+https://github.com/rosetta-rs/argparse-rosetta-rs
 
 上記のベンチマークは、Clapのメンテナ（[@epage](https://github.com/epage)）によって、メンテナンスされているようです。ちなみにLexoptは、ripgrepで採用されています。
 
