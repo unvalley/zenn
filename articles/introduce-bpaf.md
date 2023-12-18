@@ -26,15 +26,11 @@ Bpafは、以下のような特徴を持ちます。
 - helpオプション生成・カスタマイズ
     - 色付け：`bright-color` , `dull-color` feature
     - UX向上：[doc commentsを利用したhelpのカスタマイズ](https://docs.rs/bpaf/latest/bpaf/index.html#improving-user-experience)
-- 可能な限り、 [parse, don’t validate](https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/) のアプローチに従う
-    - 通常は値を一度だけパースして、その結果を厳密な型で取得する
 - 柔軟性と再利用性
-    - 特定のパース要件のためのバックドアを提供
     - 任意の時点で、各サブパーサの現在の解析状態に基づいて追加の検証やフォールバック値の適用が可能
     - BpafのParserはmonolithicではないため、複数のバイナリ・workspaceメンバー・別プロジェクトにおいても共有可能
-- ドキュメントが豊富
-    - チュートリアルやガイドなどが、丁寧に書かれている
-    - [https://docs.rs/bpaf/latest/bpaf/index.html](https://docs.rs/bpaf/latest/bpaf/index.html)
+
+また、可能な限り、 [parse, don’t validate](https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/) のアプローチに従っている点やパーサーの抽象化に関数型プログラミングの概念（Applicative Functor）を用いていることなどが特徴として挙げられると思います。
 
 ## Exampleコード (Derive API)
 
