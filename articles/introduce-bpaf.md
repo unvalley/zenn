@@ -41,7 +41,6 @@ Bpafでは、Derive APIとCombinatoric APIの２つが提供されています�
 Derive APIを使う場合は、エディタからの補完は少ないですがタイプ数も少ないです。Combinatori APIを使う場合は、タイプ数が多いですが、procマクロ（bpaf_derive crate）に依存せず、エディタからの補完が増えます。
 
 Derive APIのほうが可読性が高いと思うので、ここでは[Bpaf公式のExamplesのDerive APIの例](https://github.com/pacak/bpaf/blob/master/examples/derive.rs)を載せます。
-`cargo new bpaf-example`を実行して、[main.rs](http://main.rs) に以下のコードをコピペして試せます。
 
 ```rust
 // https://github.com/pacak/bpaf/blob/master/examples/derive.rs
@@ -153,7 +152,7 @@ Biomeは以前はpico_argsを利用していましたが、@ematipicoによる[�
 
 Derive API を利用したCommand実装として、以下のファイルにあります。実践的な例として参考になると思います。
 
-https://github.com/biomejs/biome/blob/main/crates/biome_cli/src/commands/mod.rs#L29
+https://github.com/biomejs/biome/blob/main/crates/biome_cli/src/commands/mod.rs#L29-L44
 
 ## Alternatives
 
@@ -167,26 +166,28 @@ https://github.com/biomejs/biome/blob/main/crates/biome_cli/src/commands/mod.rs#
 
 以下のRepositoryでは、いくつかのCommand Line Argument Parserを対象としたベンチーマークが記録されており、選定の際に役立つと思います。
 
-[https://github.com/rosetta-rs/argparse-rosetta-rs](https://github.com/rosetta-rs/argparse-rosetta-rs)
+https://github.com/rosetta-rs/argparse-rosetta-rs
 
 上記のベンチマークは、Clapのメンテナ（[@epage](https://github.com/epage)）によって、メンテナンスされているようです。ちなみにLexoptは、ripgrepで採用されています。
 
-- [various rollup + move off of Clap to lexopt by BurntSushi · Pull Request #2626 · BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep/pull/2626)
+https://github.com/BurntSushi/ripgrep/pull/2626
 
 ## 終わりに
 
 本記事では、Rustにおける軽量かつ柔軟なCommand Line Argument ParserのBpafを紹介しました。Clapほど機能が豊富でなくてもよい・バイナリサイズ・ビルド時間などを削減したいという場合の選択肢となればよいと思います。
 
-- [pacak/bpaf: Command line parser with applicative interface](https://github.com/pacak/bpaf)
+https://github.com/pacak/bpaf
 
 今回はBpafの内部のコードについて触れていません。以下のページなどでは、Bpafで利用されている抽象的な概念について書かれているので、内部に興味がある方は読んでみると面白いと思います。
 
 - [bpaf::_documentation::_4_explanation - Rust](https://docs.rs/bpaf/latest/bpaf/_documentation/_4_explanation/index.html)
 - [Using Category Theory to parse command line options](https://rustmagazine.org/issue-2/applicative-parsing/)
 
-ちなみに[Bpafの “af” の部分は、作者いわくApplicative Functorの略](https://www.reddit.com/r/rust/comments/xlzx3v/comment/ipnf3og/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)とのことです（”Bp”は何を表していたか忘れたらしい）。
+ちなみにBpafの “af” の部分は、作者いわくApplicative Functorの略とのことです（”Bp”は何を表していたか忘れたらしい）。
 
-上記のExplanationのドキュメントなどを読んでいると、Bpafの内部実装に興味が湧きました。利用しているツールでもあるので、どこかの機会でちゃんとコードリーディング（及び コントリビューション）したくなりました。
+https://www.reddit.com/r/rust/comments/xlzx3v/comment/ipnf3og/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+
+記事を書く上で、Bpafの内部実装に興味が湧きました。利用しているツールでもあるので、どこかの機会でちゃんとコードリーディング（及び コントリビューション）します。
 
 ## 参考資料
 
