@@ -152,7 +152,7 @@ Biomeは以前はpico_argsを利用していましたが、@ematipicoによる[�
 
 Derive API を利用したCommand実装として、以下のファイルにあります。実践的な例として参考になると思います。
 
-https://github.com/biomejs/biome/blob/main/crates/biome_cli/src/commands/mod.rs#L29-L44
+https://github.com/biomejs/biome/blob/main/crates/biome_cli/src/commands/mod.rs#L29-L260
 
 ## Alternatives
 
