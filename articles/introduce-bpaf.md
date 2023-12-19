@@ -15,7 +15,7 @@ RustのCommand Line Argument Parserといえば[Clap](https://github.com/clap-rs
 
 ## Bpaf
 
-Bpafは、以下のような特徴を持ちます。
+Bpafには、以下のような機能・特徴があります。
 
 - Derive style API と Combinatoric style API を提供
     - Derive style API：`derive` feature （bpaf_derive crateを利用して、re-exportする）
@@ -30,7 +30,7 @@ Bpafは、以下のような特徴を持ちます。
     - 任意の時点で、各サブパーサの現在の解析状態に基づいて追加の検証やフォールバック値の適用が可能
     - BpafのParserはmonolithicではないため、複数のバイナリ・workspaceメンバー・別プロジェクトにおいても共有可能
 
-また、可能な限り、 [parse, don’t validate](https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/) のアプローチに従っている点やパーサーの抽象化に関数型プログラミングの概念（Applicative Functor）を用いていることなどが特徴として挙げられると思います。
+また、可能な限り、 [parse, don’t validate](https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/) のアプローチに従っている点やパーサーの抽象化に関数型プログラミングの概念（Applicative Functor）を用いていることなども特徴です。
 
 ## Exampleコード (Derive API)
 
